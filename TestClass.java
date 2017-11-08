@@ -22,10 +22,6 @@ public class TestClass {
 			try {
 			input = scan.nextInt();
 			}
-			catch(Exception e){
-				System.out.println("You Dumb ass. " + e.getMessage());
-				break;
-			}
 			System.out.print("Done!");
 			scan.close();
 		}
